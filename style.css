@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: grey;
+  color: blue;
+  /* background-image: url(./icon.png);
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#card,
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin-top: 30px;
+}
+
+#container {
+  font-size: 2rem;
+  display: flex;
+}
+
+#search {
+  width: 200px;
+  margin-left: 10px;
+}
+
+button {
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+}
+
+#input-container {
+  display: flex;
+  justify-content: center;
+}
+
+#current {
+  display: flex;
+  text-align: center;
+  flex-flow: column;
+}
+
+#current > div {
+  margin-top: 5px;
+  font-size: 1.4rem;
+}
+
+#currentImg {
+  min-height: 200px;
+  min-width: 200px;
+}
+
+#condition {
+  margin-bottom: 20px;
+}
